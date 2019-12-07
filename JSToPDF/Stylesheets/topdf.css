@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #DEDEDE;
+	text-align: center;
+}
+
+table{
+	width: 300px;
+	font: 17px Calibri;
+}
+
+table, th, td{
+	border: solid 1px #DDD;
+	border-collapse: collapse;
+	padding: 2px 3px;
+	text-align: center;
+}

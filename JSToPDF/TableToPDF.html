@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Convert Table to PDF using Javascript</title>
+		<link href="Stylesheets/topdf.css" rel="stylesheet" />
+		<script src="Scripts/topdf.js" type="text/javascript" defer></script>
+	</head>
+	<body>
+<!--This is an example to demostrate how to convert an HTML table into a .pdf for printing using simple Javascript and CSS. No plugins required. You can use a simple Notepad, Visual Studio, Dreamweaver any web development tool you feel comfortable with.-->
+		<div id="tab">
+			<table>
+				<tr>
+					<th>Name</th><th>Age</th><th>Job</th>
+				</tr>
+				<tr>
+					<td>Thokozani</td><td>40 years</td><td>Developer</td>
+				</tr>
+				<tr>
+					<td>Lucia</td><td>31 years</td><td>Administrator</td>
+				</tr>
+				<tr>
+					<td>Erasmus</td><td>35 years</td><td>Technician</td>
+				</tr>
+			</table>
+		</div>
+		
+		<p>
+			<input type="button" value="To PDF" id="btnPrint" onClick="createPDF()" />
+		</p>
+	</body>
+</html>
